@@ -1,0 +1,71 @@
+@charset 'UTF-8';
+/*@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);*/
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabigothic.css);
+
+
+html,body{
+	/*font-family: 'Arial', 'Noto Sans Japanese', sans-serif;*/
+	font-family: 'Arial', 'Sawarabi Gothic', sans-serif;
+	background-color: #fff;
+	height: 100%;
+}
+
+.main{
+	height: 100%;
+}
+
+h2{
+	padding-top: 50px;
+	border-bottom: 1px solid #555;
+	color: #555;
+	display: inline-block;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+
+p,h3{
+	color: #555;
+	font-weight: normal;
+}
+
+.l-sizedetect{
+	font-family: 'PC';
+}
+
+.pc{
+	display: block;
+}
+
+.sp{
+	display: none;
+}
+
+@media all and (max-width: 1024px) {
+
+	.l-sizedetect{
+		font-family: 'TAB';
+	}
+
+}
+
+@media all and (max-width: 768px) {
+
+	.l-sizedetect{
+		font-family: 'SP';
+	}
+
+	h2{
+		padding-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	.pc{
+	display: none;
+	}
+
+	.sp{
+		display: block;
+	}
+
+}
