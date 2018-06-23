@@ -141,12 +141,11 @@ box-shadow: 6px 7px 20px -6px rgba(0,0,0,0.35);
 }
 
 .latest-works-area article .article-words{
-	padding: 5px 8px 15px;
+	padding: 10px 8px;
 	position: absolute;
 	z-index: 20;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, .7);
-	/* border-top: 1px solid #ccc; */
 }
 
 .latest-works-area article a .article-img{
@@ -162,6 +161,30 @@ box-shadow: 6px 7px 20px -6px rgba(0,0,0,0.35);
 	margin-bottom: 7px;
 	display: inline-block;
 	color: #fff;
+	position: absolute;
+	top:0;
+	left: 0;
+	background-color: #44C591;
+	text-align: center;
+	padding: 4px 8px;
+}
+
+.latest-works-area article a time span{
+	display: block;
+	margin-bottom: 2px;
+}
+
+.latest-works-area article a time .day{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.latest-works-area article a time .month{
+	display: block;
+}
+
+.latest-works-area article a time .year{
+	display: block;
 }
 
 .latest-works-area article a p{
