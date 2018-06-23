@@ -109,12 +109,13 @@
 }
 
 .latest-works-area ul{
-	
+	display: flex;
+	justify-content: space-between;
 }
 
 .latest-works-area li{
-	width: 232px;
-	float: left;
+	/* width: 232px;
+	float: left; */
 	margin-right: 24px;
 	background-color: #fff;
 	text-align: left;
@@ -135,12 +136,17 @@ box-shadow: 6px 7px 20px -6px rgba(0,0,0,0.35);
 	display: block;
 	text-decoration: none;
 	color: #555;
+	position: relative;
 	
 }
 
 .latest-works-area article .article-words{
 	padding: 5px 8px 15px;
-  height: 118px;
+	position: absolute;
+	z-index: 20;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .7);
+	/* border-top: 1px solid #ccc; */
 }
 
 .latest-works-area article a .article-img{
@@ -155,11 +161,13 @@ box-shadow: 6px 7px 20px -6px rgba(0,0,0,0.35);
 	font-size: 12px;
 	margin-bottom: 7px;
 	display: inline-block;
+	color: #fff;
 }
 
 .latest-works-area article a p{
 	font-size: 14px;
 	line-height: 1.4;
+	color: #fff;
 }
 
 .latest-works-area .all-lists{
