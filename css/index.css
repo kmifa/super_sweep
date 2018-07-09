@@ -145,7 +145,7 @@ box-shadow: 6px 7px 20px -6px rgba(0,0,0,0.35);
 	position: absolute;
 	z-index: 20;
 	bottom: 0;
-	background-color: rgba(0, 0, 0, .7);
+	left: -8px;
 	/* border-top: 1px solid #ccc; */
 }
 
@@ -162,12 +162,16 @@ box-shadow: 6px 7px 20px -6px rgba(0,0,0,0.35);
 	margin-bottom: 7px;
 	display: inline-block;
 	color: #fff;
+	background: #44C591;
+	padding: 4px;
 }
 
 .latest-works-area article a p{
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.4;
 	color: #fff;
+	background: #44C591;
+	padding: 4px;
 }
 
 .latest-works-area .all-lists{

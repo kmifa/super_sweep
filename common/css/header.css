@@ -7,7 +7,7 @@ header{
 	border-bottom: 1px solid #c3c3c3;
 	border-top: 3px solid #79cafe;
 	position: fixed;
-	z-index: 5;
+	z-index: 999;
 	width: 100%;
 	background-color: #fff;
 }
