@@ -212,6 +212,18 @@ body.active{
   max-width: 800px;
 }
 
+#modal-content{
+	margin:30px 0;
+	background-color: #fff;
+	text-align: center;
+	padding:0 20px 30px;
+	max-width: 800px;
+	transform: translateY(-50%);
+	top: 50%;
+	position: relative;
+	z-index: 2000;
+}
+
 #modal-close{
 	width: 25px;
 	position: absolute;
@@ -222,14 +234,6 @@ body.active{
 
 #modal-close img{
 	width: 100%;
-}
-
-#modal-content{
-	margin:30px 0;
-	background-color: #fff;
-	text-align: center;
-	padding:0 20px 30px;
-	max-width: 800px;
 }
 
 #modal-content h2{
@@ -346,7 +350,9 @@ body.active{}
 
 #modal-close img{}
 
-#modal-content{}
+#modal-content{
+	transform: translateY(-30%);
+}
 
 #modal-content h2{}
 
@@ -461,7 +467,9 @@ body.active{}
 
 #modal-close img{}
 
-#modal-content{}
+#modal-content{
+	transform: translateY(-20%);
+}
 
 #modal-content h2{}
 
