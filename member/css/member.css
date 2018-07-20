@@ -43,6 +43,39 @@
 	font-size: 17px;
 }
 
+.member-block .member-masterpiece{
+	background-color: #F5F5F5;
+	border-radius: 14px;
+	padding: 20px 20px;
+	text-align: left;
+	margin-top: 22px;
+}
+
+.member-block .member-masterpiece h3{
+	font-size: 18px;
+	margin-bottom: 30px;
+	/* text-decoration: underline; */
+	margin-top: 0px;
+}
+
+.member-block .member-masterpiece ul{
+	/* text-align: left; */
+}
+
+.member-block .member-masterpiece li{
+	margin-bottom: 25px;
+}
+
+.member-block .member-masterpiece .title{
+	font-size: 16px;
+	margin-bottom: 6px;
+	line-height: 1.2;
+}
+
+.member-block .member-masterpiece .work{
+	font-size: 13px;
+}
+
 @media all and (max-width: 768px) {
 
 #company-profile {
