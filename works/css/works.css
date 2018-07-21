@@ -135,6 +135,10 @@
 
 /***********latest-works-area*********/
 
+#works-page {
+  width: auto;
+}
+
 .latest-works-area{}
 
 .latest-works-wrap{
@@ -152,7 +156,7 @@
 }
 
 .latest-works-area li:last-child{
-	display: none;
+	
 }
 
 .latest-works-area article{}
@@ -167,7 +171,9 @@
 
 .latest-works-area article a time{}
 
-.latest-works-area article a p{}
+.latest-works-area article a p{
+	font-size: 14px;
+}
 
 .latest-works-area .all-lists{}
 
@@ -194,7 +200,7 @@
 .latest-works-area ul{
     margin: 0 auto;
     width: 90%;
-    max-width: 320px;  
+    max-width: 300px;  
     flex-direction: column;
     flex-wrap: wrap;
 }

@@ -499,7 +499,7 @@ box-shadow: 6px 7px 20px -6px rgba(0,0,0,0.35);
 .latest-works-area ul{
     margin: 0 auto;
     width: 90%;
-    max-width: 320px;  
+    max-width: 300px;  
     flex-direction: column;
     flex-wrap: wrap;
 }

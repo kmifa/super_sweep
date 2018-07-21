@@ -15,7 +15,7 @@
 }
 
 .member-block {
-	border-bottom: 1px solid #555;
+	/* border-bottom: 1px solid #555; */
 	padding-bottom: 20px;
 	margin-top: 40px;
 	width: 460px;
@@ -42,6 +42,59 @@
 	line-height: 1.4;
 	font-size: 17px;
 }
+
+/***** となり同士で高さを指定 ******/
+
+.member-block:nth-of-type(1) .member-career{
+	min-height: 276px;
+}
+
+.member-block:nth-of-type(1) .member-masterpiece{
+	min-height: 800px;
+}
+
+.member-block:nth-of-type(2) .member-career{
+	min-height: 276px;
+}
+
+.member-block:nth-of-type(2) .member-masterpiece{
+	min-height: 800px;
+}
+
+.member-block:nth-of-type(3) .member-career{
+	min-height: 276px;
+}
+
+.member-block:nth-of-type(3) .member-masterpiece{
+	min-height: 529px;
+}
+
+.member-block:nth-of-type(4) .member-career{
+	min-height: 276px;
+}
+
+.member-block:nth-of-type(4) .member-masterpiece{
+	min-height: 529px;
+}
+
+.member-block:nth-of-type(5) .member-career{
+	min-height: 299px;
+}
+
+.member-block:nth-of-type(5) .member-masterpiece{
+	min-height: 718px;
+}
+
+.member-block:nth-of-type(6) .member-career{
+	min-height: 299px;
+}
+
+.member-block:nth-of-type(6) .member-masterpiece{
+	min-height: 718px;
+}
+
+/***** となり同士で高さを指定 ******/
+
 
 .member-block .member-masterpiece{
 	background-color: #F5F5F5;
@@ -76,58 +129,203 @@
 	font-size: 13px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
 
-#company-profile {
-	width: 100%;
+#member-profile {
+	width: 760px;
 	padding: 67px 30px 0;
+}
+
+.member-block {
+	padding-bottom: 20px;
+	margin-top: 40px;
+	width: 330px;
+}
+
+.member-block .member-img{
 	
 }
 
-.table {
-	font-size: 14px;
-	margin-bottom: 30px;
+.member-block .member-img img{
+	
 }
 
-.table .column-wrap {
-	display: block;
+.member-block .member-name{
+	
 }
 
-.table .left-column,
-.table .right-column {
-	display: block;
-	padding: 8px 0;
+.member-block .member-career{
+	
 }
 
-.table .left-column{
-	border-right: none;
-	width: 100%;
-	border-bottom: none;
-	font-weight: bold;
-	font-size: 16px;
+/***** となり同士で高さを指定 ******/
+
+.member-block:nth-of-type(1) .member-career{
+	min-height: 345px;
 }
 
-.table .right-column{
-	width: 100%;
-	padding-top: 0;
+.member-block:nth-of-type(1) .member-masterpiece{
+	min-height: 819px;
 }
 
-.table .last-line .left-column,
-.table .last-line .right-column{}
-
-.table iframe {}
-
-.table .left,
-.table .right {
-	float: none;
+.member-block:nth-of-type(2) .member-career{
+	min-height: 345px;
 }
 
-.table .left {
-	margin-bottom: 20px;
+.member-block:nth-of-type(2) .member-masterpiece{
+	min-height: 819px;
 }
 
-.table .right {
-	margin-left: 0;
+.member-block:nth-of-type(3) .member-career{
+	min-height: 345px;
 }
 
+.member-block:nth-of-type(3) .member-masterpiece{
+	min-height: 567px;
 }
+
+.member-block:nth-of-type(4) .member-career{
+	min-height: 345px;
+}
+
+.member-block:nth-of-type(4) .member-masterpiece{
+	min-height: 567px;
+}
+
+.member-block:nth-of-type(5) .member-career{
+	min-height: 368px;
+}
+
+.member-block:nth-of-type(5) .member-masterpiece{
+	min-height: 718px;
+}
+
+.member-block:nth-of-type(6) .member-career{
+	min-height: 368px;
+}
+
+.member-block:nth-of-type(6) .member-masterpiece{
+	min-height: 718px;
+}
+
+/***** となり同士で高さを指定 ******/
+
+}
+
+
+@media all and (max-width: 767px) {
+
+	#member-profile {
+		width: auto;
+		padding: 67px 20px 0;
+	}
+
+	.member-block-wrap {
+		display: block;
+		margin-bottom: 75px;
+	}
+	
+	.member-block {
+		padding-bottom: 20px;
+		margin-top: 40px;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	
+	.member-block .member-img{
+		width: 220px;
+	}
+	
+	.member-block .member-img img{
+		
+	}
+	
+	.member-block .member-name{
+		font-size: 18px;
+		margin-bottom: 30px;
+		
+	}
+	
+	.member-block .member-career{
+		font-size: 14px;
+	}
+
+	.member-block .member-masterpiece{
+		
+	}
+
+	.member-block .member-masterpiece h3{
+		margin-bottom: 20px;
+		
+	}
+
+	.member-block .member-masterpiece li{
+		margin-bottom: 14px;
+		
+	}
+
+	.member-block .member-masterpiece .title{
+		font-size: 14px;
+		
+	}
+
+	.member-block .member-masterpiece .work{
+		font-size: 12px;
+	}
+	
+	/***** となり同士で高さを指定 ******/
+	
+	.member-block:nth-of-type(1) .member-career{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(1) .member-masterpiece{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(2) .member-career{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(2) .member-masterpiece{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(3) .member-career{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(3) .member-masterpiece{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(4) .member-career{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(4) .member-masterpiece{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(5) .member-career{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(5) .member-masterpiece{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(6) .member-career{
+		min-height: auto;
+	}
+	
+	.member-block:nth-of-type(6) .member-masterpiece{
+		min-height: auto;
+	}
+	
+	/***** となり同士で高さを指定 ******/
+	
+	
+	
+	}
